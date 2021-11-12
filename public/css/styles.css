@@ -9,14 +9,15 @@ p {
   font-weight: 600;
   color: #3A3735;
   line-height: 27px;
+  text-align: center;
 }
 
 h1 {
   font-family: 'Martel', serif;
-  font-size: 56px;
+  font-size: 48px;
   font-weight: 600;
   color: #3A3735;
-  line-height: 94px;
+  line-height: 81px;
   visibility: hidden;
   margin-bottom: 0;
 }
@@ -40,7 +41,7 @@ h3 {
 
 /* container for entire page */
 .codon-wheel {
-  width: 410px;
+  width: 360px;
   margin: 64px auto;
 }
 
@@ -70,9 +71,9 @@ h3 {
 .container-builder {
   display: flex;
   justify-content: center;
-  width: 410px;
+  width: 360px;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 /* RNA ends */
@@ -116,6 +117,7 @@ h3 {
 .reset-wheel {
   display: flex;
   justify-content: center;
+  margin-top: 8px;
 }
 
 /* Buttons */
