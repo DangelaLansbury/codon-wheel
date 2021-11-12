@@ -149,7 +149,6 @@ function produceAmino() {
       }
     }
 
-    console.log("Your amino acid is " + aminoAcid);
     visualizeAmino();
 
   }
