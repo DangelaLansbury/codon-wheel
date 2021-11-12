@@ -40,7 +40,7 @@ h3 {
 
 /* container for entire page */
 .codon-wheel {
-  width: 450px;
+  width: 410px;
   margin: 64px auto;
 }
 
@@ -70,7 +70,7 @@ h3 {
 .container-builder {
   display: flex;
   justify-content: center;
-  width: 450px;
+  width: 410px;
   margin-top: 16px;
   margin-bottom: 16px;
 }
