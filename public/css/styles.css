@@ -1,0 +1,161 @@
+body {
+  background-color: #FBF1EE;
+}
+
+/* text */
+p {
+  font-family: 'Martel', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3A3735;
+  line-height: 27px;
+}
+
+h1 {
+  font-family: 'Martel', serif;
+  font-size: 56px;
+  font-weight: 600;
+  color: #3A3735;
+  line-height: 94px;
+  visibility: hidden;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Martel', serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 12px;
+  letter-spacing: -0.12em;
+}
+
+.text-nucleotide {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* container for entire page */
+.codon-wheel {
+  width: 450px;
+  margin: 64px auto;
+}
+
+/* container for logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 90;
+  height: 79;
+}
+
+/* logo image  */
+.logo-img {
+  width: 25%;
+  height: 25%;
+}
+
+/* container for instructional text */
+.instruction-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+  margin-bottom: 16px;
+}
+
+/* container for amino acid builder */
+.container-builder {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* RNA ends */
+.RNA-end {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  padding: 8px 8px 8px 9px;
+  background-color: #D9593B;
+  border-radius: 20px;
+}
+
+.five-prime {
+  margin-top: 15px;
+  margin-right: 8px;
+}
+
+.three-prime {
+  margin-top: 141px;
+  margin-left: 8px;
+}
+
+/* selector sections */
+.nucSelector {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 8px 0;
+  width: 49px;
+  height: 184;
+  background-color: #CFBAB3;
+  border-radius: 4px;
+}
+
+/* container for amino acid result */
+.block-aminoAcid {
+  display: flex;
+  justify-content: center;
+}
+
+/* container for reset button */
+.reset-wheel {
+  display: flex;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #FBF1EE;
+  border: none;
+  padding: 8px;
+}
+
+.btn-primary:hover {
+  background: #CFBAB3;
+}
+
+.reset {
+  visibility: hidden;
+}
+
+.btn-secondary {
+  background: #CFBAB3;
+  border: none;
+  margin: 4px 8px;
+  padding: 7px 4px 9px;
+  width: 33px;
+  height: 34px;
+  color: #3A3735;
+}
+
+.btn-secondary:hover {
+  background: #B09F9A;
+  color: #3A3735;
+}
+
+.btn-check:active + .btn-secondary, .btn-check:checked + .btn-secondary, .btn-secondary:active, .show {
+  background: #3A3735;
+  color: #fff;
+}
+
+.icon {
+  display: inline-block;
+  width: 36px;
+  height: 32px;
+  fill: #3A3735;
+}

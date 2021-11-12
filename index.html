@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Codon Wheel</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- app styles  -->
+    <link href="public/css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="codon-wheel">
+
+      <div class="logo">
+        <img class="logo-img" src="public/images/logo.png" alt="abstract logo of a codon wheel">
+      </div>
+
+      <div class="instruction-text">
+        <p>Select 3 nucleotide bases to build an amino acid.</p>
+      </div>
+
+      <div class="container-builder">
+        <div class="RNA-end five-prime">
+          <h3>5'</h3>
+        </div>
+        <form class="form-aminoAcidBuilder">
+          <div class="nucSelector custom-control custom-radio">
+            <input type="radio" class="btn-check" name="options1" id="optionA1" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionA1">A</label>
+
+            <input type="radio" class="btn-check" name="options1" id="optionG1" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionG1">G</label>
+
+            <input type="radio" class="btn-check" name="options1" id="optionC1" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionC1">C</label>
+
+            <input type="radio" class="btn-check" name="options1" id="optionU1" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionU1">U</label>
+          </div>
+
+          <div class="nucSelector custom-control custom-radio">
+            <input type="radio" class="btn-check" name="options2" id="optionA2" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionA2">A</label>
+
+            <input type="radio" class="btn-check" name="options2" id="optionG2" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionG2">G</label>
+
+            <input type="radio" class="btn-check" name="options2" id="optionC2" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionC2">C</label>
+
+            <input type="radio" class="btn-check" name="options2" id="optionU2" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionU2">U</label>
+          </div>
+
+          <div class="nucSelector custom-control custom-radio">
+            <input type="radio" class="btn-check" name="options3" id="optionA3" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionA3">A</label>
+
+            <input type="radio" class="btn-check" name="options3" id="optionG3" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionG3">G</label>
+
+            <input type="radio" class="btn-check" name="options3" id="optionC3" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionC3">C</label>
+
+            <input type="radio" class="btn-check" name="options3" id="optionU3" autocomplete="off">
+            <label class="btn btn-secondary custom-control-label text-nucleotide" for="optionU3">U</label>
+          </div>
+        </form>
+        <div class="RNA-end three-prime">
+          <h3>3'</h3>
+        </div>
+      </div>
+
+      <div class="block-aminoAcid">
+        <h1>placeholder</h1>
+      </div>
+
+      <div class="reset-wheel">
+        <button class="btn btn-lg btn-primary reset" type="button">
+          <svg class="icon icon-sync">
+            <use xlink:href="#icon-sync">
+              <symbol id="icon-sync" viewBox="0 0 40 40">
+              <path d="M39.707 17.293c-0.391-0.391-1.024-0.391-1.414 0l-2.298 2.298c-0.103-4.121-1.756-7.979-4.681-10.905-3.022-3.022-7.040-4.686-11.314-4.686-5.948 0-11.372 3.269-14.154 8.533-0.258 0.488-0.071 1.093 0.417 1.351s1.093 0.071 1.351-0.417c2.435-4.606 7.181-7.467 12.386-7.467 7.579 0 13.77 6.053 13.993 13.579l-2.286-2.286c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l4 4c0.195 0.195 0.451 0.293 0.707 0.293s0.512-0.098 0.707-0.293l4-4c0.391-0.391 0.391-1.024 0-1.414z"></path>
+              <path d="M33.737 26.116c-0.488-0.258-1.093-0.072-1.351 0.417-2.435 4.606-7.181 7.467-12.386 7.467-7.579 0-13.77-6.053-13.993-13.579l2.286 2.286c0.195 0.195 0.451 0.293 0.707 0.293s0.512-0.098 0.707-0.293c0.391-0.391 0.391-1.024 0-1.414l-4-4c-0.391-0.391-1.024-0.391-1.414 0l-4 4c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l2.298-2.298c0.103 4.121 1.756 7.979 4.681 10.905 3.022 3.022 7.040 4.686 11.314 4.686 5.948 0 11.372-3.269 14.154-8.533 0.258-0.488 0.071-1.093-0.417-1.351z"></path>
+              </symbol>
+            </use>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="app.js" charset="utf-8"></script>
+    <!-- processing -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+
+  </body>
+</html>
