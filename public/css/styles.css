@@ -1,5 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: #FBF1EE;
+  display: flex;
+  align-items: center;
 }
 
 /* text */
@@ -42,7 +49,7 @@ h3 {
 /* container for entire page */
 .codon-wheel {
   width: 360px;
-  margin: 64px auto;
+  margin: auto;
 }
 
 /* container for logo */
