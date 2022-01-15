@@ -1,10 +1,10 @@
 // Sequence of nucleotides
-var nucleotide1 = "";
-var nucleotide2 = "";
-var nucleotide3 = "";
+let nucleotide1 = "";
+let nucleotide2 = "";
+let nucleotide3 = "";
 
 // Amino acid produced
-var aminoAcid = "";
+let aminoAcid = "";
 
 // Handle selections
 $("input[type=radio]").click(function() {
